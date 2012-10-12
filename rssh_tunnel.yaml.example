@@ -1,0 +1,23 @@
+#ssh tunnel config
+#
+
+home_postgresql:
+  ssh_host: home
+  ssh_user: root
+  remote_port: 5432
+  remote_host: 127.0.0.1
+  local_port: 5432
+
+work_postgresql:
+  ssh_host: work
+  ssh_user: root
+  remote_port: 5432
+  remote_host: 127.0.0.1
+  local_port: 54321
+
+vos_ruby19:
+  ssh_host: work_vos
+  ssh_user: root
+  remote_port: 22
+  remote_host: private_vos_ip
+  local_port: 2022

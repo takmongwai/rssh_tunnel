@@ -1,0 +1,6 @@
+.DS_Store
+*~
+*.swp
+logs
+pids
+rssh_tunnel.yaml
