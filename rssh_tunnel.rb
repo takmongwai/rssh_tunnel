@@ -5,20 +5,6 @@ require 'net/ssh'
 require 'yaml'
 require 'pp'
 
-#host = 'www.xhusky.com'
-#user = 'root'
-
-#Net::SSH.start(host, user) do |ssh|
-#  ssh.forward.local(5432,'127.0.0.1',5432)
-#  ssh.loop{true}
-#end
-#
-
-#Laptop -> Host 1 -> Host 2 -> Host 3
-# http://stackoverflow.com/questions/11456657/multiple-ssh-hops-with-netssh-ruby
-#
-
-
 
 def check_config
   local_ports = []
