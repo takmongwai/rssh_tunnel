@@ -19,8 +19,8 @@ options = {
   :monitor => true,
   :ontop => false,
   :log_output => true,
-  :log_dir => logs_dir,
-  :dir => pid_dir
+  :log_dir => File.join(File.dirname(__FILE__),'logs'),
+  :dir => File.join(File.dirname(__FILE__),'pids')
 }
 
 
